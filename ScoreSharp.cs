@@ -42,7 +42,7 @@ namespace ScoreSharp
                     if (fuzzines > 0)
                     {
                         fuzzies += 1 - fuzzines;
-                        break;
+                        continue;
                     }
                     else return 0;
                 }
