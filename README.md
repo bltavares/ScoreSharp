@@ -14,13 +14,17 @@ It's simple:
 
  * Call it like:
 
-    ScoreSharp.score("I want to find something here", "something") // => Shows the percentage score
-    ScoreSharp.score("I want to use some fuzzy", "som fuzy", 0.12) // => Shows the percentage, even with some mistakes
+>	ScoreSharp.score("I want to find something here", "something") // => Shows the percentage score
+> 
+>	ScoreSharp.score("I want to use some fuzzy", "som fuzy", 0.12) // => Shows the percentage, even with some mistakes
+> 
 
  * Or use it to sort:
 
-    string[] myList = new string[] { "Hi!","Hello","Hi and Hello", "Hello there!" };
-    myList = ScoreSharp.sorter(at, "Hello");
+> 
+>	string[] myList = new string[] { "Hi!","Hello","Hi and Hello", "Hello there!" };
+>	myList = ScoreSharp.sorter(at, "Hello");
+> 
 
 ## Credits
 
