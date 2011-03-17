@@ -63,11 +63,12 @@ namespace ScoreSharp
                     //is in the start of the word
                     start_of_word_bonus = i == 0;
                 }
-
-                // Acronym Bonus
-                // Weighing Logic: Typing the first character of an acronym is as if you
-                // preceded it with two perfect character matches.
-                if (word.ElementAtOrDefault(index_in_string - 1).ToString() == " ") char_score += 0.8;
+				else {
+		            // Acronym Bonus
+		            // Weighing Logic: Typing the first character of an acronym is as if you
+		            // preceded it with two perfect character matches.
+		            if (word.ElementAtOrDefault(index_in_string - 1).ToString() == " ") char_score += 0.8;
+				}
 
 
                 //Remove the start of string, so we don't reprocess it
