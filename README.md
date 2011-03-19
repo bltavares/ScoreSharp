@@ -23,7 +23,7 @@ It's simple:
 
 > 
 >	string[] myList = new string[] { "Hi!","Hello","Hi and Hello", "Hello there!" };
->	myList = ScoreSharp.sorter(at, "Hello");
+>	myList = ScoreSharp.sorter(myList, "Hello");
 > 
 
 ## Credits
